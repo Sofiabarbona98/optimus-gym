@@ -1,5 +1,5 @@
 <h1> Optimus Gym- Proyecto Coder House<h1>
-<p> Este sitio es para un gimnasio pensado para el curso de desarrollo wed<p>
+<p> Este sitio es para un gimnasio pensado para el curso de desarrollo web<p>
 
 <h2>Tecnologias usadas<h2>
 <ul>
