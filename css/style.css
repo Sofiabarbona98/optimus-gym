@@ -251,10 +251,10 @@ h4{
     color: #fcb823;
 }
 button{
-    background-image: linear-gradient(yellow,#fcb823 );
+    background-image: linear-gradient(white,#fcb823 );
 }
 button:hover {
-    background-image: linear-gradient(#fcb823, yellow);
+    background-image: linear-gradient(#fcb823, white);
     transform: scale(0.9,0.9);
 }
 .boton{
