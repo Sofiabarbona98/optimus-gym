@@ -301,6 +301,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
+    /* background-color: black; */
     justify-content: center;
 }
 
@@ -394,7 +395,7 @@ color: #938c74;
     background-color: rgb(252, 252, 252);
     width: 80vw;
     height: 40vw;
-    margin: 100px;
+    /* margin: 100px; */
     
 }
 .galeria__fotos{
