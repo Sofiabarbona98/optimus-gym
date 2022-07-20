@@ -81,9 +81,9 @@ h2{
     grid-area: musculacion;
     background-position: center;
     background-size:cover ;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     
-    width: 100%;
+    /* width: 100%; */
 }
 .musculacion:hover{
     transform: scale(1.05,1.05);
@@ -93,9 +93,9 @@ h2{
     grid-area: boxeo;
     background-position: center;
     background-size:cover ;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     
-    width: 100%;
+    /* width: 100%; */
 }
 .boxeo:hover{
     transform: scale(1.05,1.05);
@@ -105,9 +105,9 @@ h2{
     grid-area: cross;
     background-position: center;
     background-size:cover ;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     
-    width: 100%;
+    /* width: 100%; */
 }
 .cross:hover{
     transform: scale(1.05,1.05);
@@ -117,10 +117,10 @@ h2{
     grid-area: spinning;
     background-position: center;
     background-size:cover ;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     
     
-    width: 100%;
+    /* width: 100%; */
 }
 .spinning:hover{
     transform: scale(1.05,1.05);
@@ -130,9 +130,9 @@ h2{
     grid-area: funcional;
     background-position: center;
     background-size:cover ;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     
-    width: 100%;
+    /* width: 100%; */
 }
 .funcional:hover{
     transform: scale(1.05,1.05);
@@ -142,9 +142,9 @@ h2{
     grid-area: relax;
     background-position: center;
     background-size:cover ;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     
-    width: 100%;
+    /* width: 100%; */
 }
 .relax:hover{
     transform: scale(1.05,1.05);
@@ -154,7 +154,9 @@ footer {
     display: grid;
     grid-template-areas: "logo  nuestrassedes  contacto"
                         "redes  sedes  derechos";
-padding: 26px;
+padding: 30px;
+width: 100vw;
+
 
 }
 .footer__logo{
@@ -278,11 +280,10 @@ p{
 
 
 main {
-    
     flex-wrap: wrap;
     background-color: black;
-    /* height: 380vh; */
-}
+    height: 370vh; 
+} 
 header{
     position: sticky;
     top: 0px;
