@@ -71,9 +71,10 @@ h2{
     grid-template-areas:"musculacion boxeo cross"
                         "spinning funcional relax";
     justify-content: center; 
-    background-color: black;         
+    background-color: white;         
     row-gap: 15px;
     column-gap: 15px;
+    
 } 
 .musculacion{
     background-image: url("../resources/musculacionindex5.png");
@@ -117,6 +118,7 @@ h2{
     background-position: center;
     background-size:cover ;
     background-repeat: no-repeat;
+    
     
     width: 100%;
 }
@@ -228,6 +230,7 @@ h3 {
     color:rgb(14, 13, 13) ;
 }
 h4{
+    font-size: 15px;
     padding-bottom: 15px;
 }
 .tabla__horarios{
