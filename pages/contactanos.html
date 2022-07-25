@@ -56,32 +56,33 @@
 </header>
 <main>
 <h1 class="titulo__contactanos">Contactanos</h1>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio quam temporibus neque, eligendi fugiat, recusandae sint, rem ad provident et laborum beatae officia voluptate nostrum.</p>
-<span>hola</span>
-<form method="post">
-    <div>
-            <label>Nombre</label><!-- Muestra la palabra antes del input -->
-            <input type="text"><!-- obtener informacion del usuario en una sola linea -->
-        </div>
-        <div>
-            <label>Email</label>
-            <input type="text">
-        </div>
-        <div>
-            <label >Deja tu comentario</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea> <!-- informacion que amerite mas de una linea NUNCA informacion sencible -->
-            </div>
-            <select name="Seleccioná la sede">
-                <option value="Optimus Gym Lomas de Zamora">Optimus Gym Lomas de Zamora</option>
-                <option value="Optimus Gym Banfield ">Optimus Gym Banfield</option>
-                <option value="Optimus Gym Adrogue">Optimus Gym Adrogue</option>
-                </select>
-            <input type="submit"value= "Enviar formulario">
-            <input type="reset"value= "Borrar formulario">
-            <input type="button"value= "Derp">
-            
-</form>
+<section class="container-fluid">
+    <article class="row mx-5 mt-3">  >
+        <div class="col">
+        <form >
+    <div class="form-floating mb-3">
+        <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Nombre </label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email </label>
+    </div>
+    <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Deja Tus comentarios</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+        <button class="btn btn-primary" type="reset">Borrar Formulario</button>
+    </div>
+</form></div>
 
+</section>
 </main>
 <footer class="footer__pie">
         

@@ -62,8 +62,14 @@ h2{
     color:#fcb823;
     
 }
+.nav-link{
+    color: black;
+}
+.active{
+    color: #fcb823;
+}
 .columna__grid{
-    width: 100vw;
+    width: 99vw;
     height: 100vw; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -72,9 +78,9 @@ h2{
                         "spinning funcional relax";
     justify-content: center; 
     background-color: black;         
-    row-gap: 15px;
+    row-gap: 15px; 
     column-gap: 15px;
-    
+
 } 
 .musculacion{
     background-image: url("../resources/musculacionindex5.png");
@@ -155,9 +161,34 @@ footer {
     grid-template-areas: "logo  nuestrassedes  contacto"
                         "redes  sedes  derechos";
 padding: 30px;
-width: 100vw;
+width: 99vw;
 
 
+
+}.logo__ig::selection{
+    background-color: #fcb823;
+}.logo__fb::selection{
+    background-color: #fcb823;
+}.logo__wpp::selection{
+    background-color: #fcb823;
+}
+.logo__fotter::selection{
+    background-color: #fcb823;
+}
+span::selection{
+    background-color: #fcb823;
+}
+h3::selection{
+    background-color: #fcb823;
+}
+h4::selection{
+    background-color: #fcb823;
+}
+h2::selection{
+    background-color: #fcb823;
+}
+.lista__footer::selection{
+    background-color: #fcb823;
 }
 .footer__logo{
     grid-area: logo ;
@@ -278,7 +309,13 @@ p{
     
 }
 
-
+a{
+    text-decoration: none;
+    color: #fcb823;
+}
+a:visited{
+    color: white;
+}
 main {
     flex-wrap: wrap;
     background-color: black;
@@ -304,8 +341,8 @@ header{
 .header__nav{
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
-    /* background-color: black; */
+    width:99vw;
+    background-color:#fcb823;
     justify-content: center;
 }
 
@@ -325,7 +362,7 @@ header{
     transition: all 0s;
 }
 .header__item a {
-    color: #fcb823;
+    color:black;
     text-decoration: none;
 }
 
