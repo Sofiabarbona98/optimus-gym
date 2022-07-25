@@ -1,0 +1,23 @@
+{
+  "name": "sofia-barbona-desafio4",
+  "version": "1.0.0",
+  "description": "<h1> Optimus Gym- Proyecto Coder House<h1>\r <p> Este sitio es para un gimnasio pensado para el curso de desarrollo web<p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sofiabarbona98/optimus-gym.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sofiabarbona98/optimus-gym/issues"
+  },
+  "homepage": "https://github.com/Sofiabarbona98/optimus-gym#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

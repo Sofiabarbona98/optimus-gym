@@ -14,6 +14,7 @@ h1 {
     
     
 }
+
 .logo__fotter{
     width: 90px;
     margin: 15px;
@@ -68,6 +69,16 @@ h2{
 .active{
     color: #fcb823;
 }
+.flex__planes{
+    display: flex;
+    list-style: none;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    align-items: auto;
+    justify-content: center;
+    flex-grow: 3;
+}
+
 .columna__grid{
     width: 99vw;
     height: 100vw; 
@@ -93,6 +104,7 @@ h2{
 }
 .musculacion:hover{
     transform: scale(1.05,1.05);
+    transition: all 0.5s
 }
 .boxeo{
     background-image: url("../resources/box.png");
@@ -105,6 +117,7 @@ h2{
 }
 .boxeo:hover{
     transform: scale(1.05,1.05);
+    transition: all 0.5s
 }
 .cross{
     background-image: url("../resources/crossindexx3.png");
@@ -117,6 +130,7 @@ h2{
 }
 .cross:hover{
     transform: scale(1.05,1.05);
+    transition: all 0.5s
 }
 .spinning{
     background-image: url("../resources/spinning.png");
@@ -130,6 +144,7 @@ h2{
 }
 .spinning:hover{
     transform: scale(1.05,1.05);
+    transition: all 0.5s
 }
 .funcional{
     background-image: url("../resources/funcionalindex4.png");
@@ -142,6 +157,7 @@ h2{
 }
 .funcional:hover{
     transform: scale(1.05,1.05);
+    transition: all 0.5s
 }
 .relax{
     background-image: url("../resources/yogaindex6.png");
@@ -154,14 +170,16 @@ h2{
 }
 .relax:hover{
     transform: scale(1.05,1.05);
+    transition: all 0.5s
 }
 
 footer {
     display: grid;
     grid-template-areas: "logo  nuestrassedes  contacto"
                         "redes  sedes  derechos";
+
 padding: 30px;
-width: 99vw;
+width: 100vw;
 
 
 
@@ -234,7 +252,8 @@ h2::selection{
     
 }
 .footer__pie{
-    background-color:black;
+    
+    background-color:rgb(233, 12, 12);
 }
 .contacto__footer{
     text-align: left;
@@ -341,7 +360,7 @@ header{
 .header__nav{
     display: flex;
     flex-wrap: wrap;
-    width:99vw;
+    width:100vw;
     background-color:#fcb823;
     justify-content: center;
 }
@@ -423,11 +442,11 @@ header{
     width: 25px;
     background-position: 50vw;
 }
-span{
+/* span{
 color: #938c74;
     font-size: 20px;
     background-color: rgb(5, 5, 5)
-}
+} */
 
 .galeria__img--destacada {
     /* border-top:solid 10px rgb(240, 236, 12) ;
@@ -577,8 +596,7 @@ color: #938c74;
     width: 100%;
 }
 
-
-.plan__1 {
+ .plan__1 {
 width: 300px;
 margin: 70px;
 height:700px;
@@ -599,7 +617,7 @@ height:700px;
 width: 300px;
 margin: 150px;
 height:700px;
-}
+} 
 
 .plan__5 {
     width: 300px;
@@ -612,15 +630,24 @@ height:700px;
         
         height: auto;
     }
+    /* .mapa__sede{
+        width: 70vw;
+        margin: 30px;
+        height: 200px;
+    }
+     */
     
     h1 {
         text-align:left;
         padding: 5px;
-        font-size: 40px;
+        font-size: 30px;
         font-family: 'Noto Sans Display', sans-serif;
         color:#fcb823;
         background-image: url('../resources/portadaindexsola.png');
         background-position:center;
+        }
+        .url{
+            background-position: center;
         }
     .tabla__horarios{
         width: 90vw;
@@ -653,7 +680,20 @@ height:700px;
         
     }
     
-
+    footer {
+        
+        grid-template-areas: "logo" 
+                            "nuestrassedes" 
+                            "contacto"
+                            "redes"
+                            "sedes"
+                            "derechos";
+                            
+    margin: 5px;
+    padding: 5px;
+    width: 100vw;
+}
+    
 }
 
 /* MEDIA QUERIE DE TABLET */
