@@ -1,0 +1,107 @@
+footer {
+    display: grid;
+    grid-template-areas: "logo  nuestrassedes  contacto"
+                        "redes  sedes  derechos";
+
+padding: 30px;
+width: 100vw;
+
+}.logo__ig::selection{
+    background-color: $color-principal;
+}.logo__fb::selection{
+    background-color: $color-principal;
+}.logo__wpp::selection{
+    background-color: $color-principal;
+}
+.logo__fotter::selection{
+    background-color: $color-principal;
+}
+span::selection{
+    background-color: $color-principal;
+}
+h3::selection{
+    background-color: $color-principal;
+}
+h4::selection{
+    background-color: $color-principal;
+}
+h2::selection{
+    background-color: $color-principal;
+}
+.lista__footer::selection{
+    background-color: $color-principal;
+}
+.footer__logo{
+    grid-area: logo ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.redes__footer{
+    grid-area: redes;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    width: 15vw;
+    
+
+}
+.lista__footer{
+    padding-bottom: 15px;
+}
+.nuestrassedes {
+    grid-area: nuestrassedes;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 50vw;
+}
+
+.contacto__div{
+    grid-area: contacto;
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: center; */
+}
+.footer__derechos{
+    grid-area: derechos;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    font-size: 13px;
+    
+}
+.footer__pie{
+    background-color:$color-secundario;
+}
+.contacto__footer{
+    text-align: left;
+    font-size: 15px;
+    color: #938c74;
+}
+.contacto__div{
+    font-size: 15px;
+    color: #938c74;
+    padding-bottom: 50px;
+}
+.nombre__gym{
+    font-size: 15px;
+    text-align: left;
+    color: #938c74;
+}
+.nuestras__sedes{
+    text-align: left;
+    font-size: 15px;
+    color: #938c74;
+}
+.logo__fotter{
+    width: 90px;
+    margin: 15px;
+}
+.ul__footer{
+    list-style: none;
+    color: #938c74;
+    
+}
