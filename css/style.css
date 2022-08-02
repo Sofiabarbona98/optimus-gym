@@ -145,71 +145,6 @@ header {
 .active {
   color: #fcb823; }
 
-/* MEDIA DE CELULAR */
-@media (min-width: 320px) and (max-width: 575px) {
-  header {
-    height: auto; }
-  /* .mapa__sede{
-        width: 70vw;
-        margin: 30px;
-        height: 200px;
-    }
-     */
-  h1 {
-    text-align: left;
-    padding: 5px;
-    font-size: 30px;
-    font-family: 'Noto Sans Display', sans-serif;
-    color: #fcb823;
-    background-image: url("../resources/portadaindexsola.png");
-    background-position: center; }
-  .url {
-    background-position: center; }
-  .tabla__horarios {
-    width: 90vw;
-    margin: 25px;
-    height: 700px; }
-  .header__lista {
-    flex-direction: column;
-    flex-grow: 0;
-    justify-content: center;
-    align-items: center; }
-  .header__nav {
-    flex-direction: column;
-    justify-content: center; }
-  .horarios__grid {
-    grid-template-columns: 1fr;
-    height: 300vh;
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: "portada" "cardio"   "yoga" "box" "spinning"  "cross"; }
-  footer {
-    grid-template-areas: "logo"  "nuestrassedes"  "contacto" "redes" "sedes" "derechos";
-    margin: 5px;
-    padding: 5px;
-    width: 100vw; } }
-
-/* MEDIA QUERIE DE TABLET */
-@media (min-width: 576px) and (max-width: 992px) {
-  h1 {
-    text-align: left;
-    padding: 20px;
-    font-size: 50px;
-    font-family: 'Noto Sans Display', sans-serif;
-    color: #fcb823;
-    background-image: url("../resources/portadaindexsola.png");
-    background-position: center; }
-  .horarios__grid {
-    /* height: auto;
-        grid-template-columns:1fr 1fr 1fr; */
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "portada portada portada" "cardio  yoga box" "cardio spinning cross"; } }
-
-* {
-  margin: 0px;
-  /* MARGEN EXTERNO */
-  padding: 0px;
-  /* MARGEN INTERNO */ }
-
 h1 {
   text-align: left;
   padding: 70px;
@@ -426,11 +361,6 @@ main {
   width: 25px;
   background-position: 50vw; }
 
-/* span{
-color: #938c74;
-    font-size: 20px;
-    background-color: rgb(5, 5, 5)
-} */
 .galeria__img--destacada {
   /* border-top:solid 10px rgb(240, 236, 12) ;
     border-bottom: solid 10px rgb(240, 236, 12); */
@@ -576,3 +506,68 @@ color: #938c74;
   width: 300px;
   margin: 150px;
   height: 700px; }
+
+/* MEDIA DE CELULAR */
+@media (min-width: 320px) and (max-width: 575px) {
+  header {
+    height: auto; }
+  /* .mapa__sede{
+        width: 70vw;
+        margin: 30px;
+        height: 200px;
+    }
+     */
+  h1 {
+    text-align: left;
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: #fcb823;
+    background-image: url("../resources/portadaindexsola.png");
+    background-position: center; }
+  .url {
+    background-position: center; }
+  .tabla__horarios {
+    width: 90vw;
+    margin: 25px;
+    height: 700px; }
+  .header__lista {
+    flex-direction: column;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center; }
+  .header__nav {
+    flex-direction: column;
+    justify-content: center; }
+  .horarios__grid {
+    grid-template-columns: 1fr;
+    height: 300vh;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "portada" "cardio"   "yoga" "box" "spinning"  "cross"; }
+  footer {
+    grid-template-areas: "logo"  "nuestrassedes"  "contacto" "redes" "sedes" "derechos";
+    margin: 5px;
+    padding: 5px;
+    width: 100vw; } }
+
+/* MEDIA QUERIE DE TABLET */
+@media (min-width: 576px) and (max-width: 992px) {
+  h1 {
+    text-align: left;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Noto Sans Display', sans-serif;
+    color: #fcb823;
+    background-image: url("../resources/portadaindexsola.png");
+    background-position: center; }
+  .horarios__grid {
+    /* height: auto;
+        grid-template-columns:1fr 1fr 1fr; */
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "portada portada portada" "cardio  yoga box" "cardio spinning cross"; } }
+
+* {
+  margin: 0px;
+  /* MARGEN EXTERNO */
+  padding: 0px;
+  /* MARGEN INTERNO */ }
