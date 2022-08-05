@@ -174,23 +174,17 @@ main {
 }
 
 .foto__sedeprincipal{
-    width: 320px;
-    height: 320px;
-    margin: 60px;
+    @extend .extend-sede;
 }
 .foto__sedebanfield{
-    width: 320px;
-    height: 320px;
-    margin: 60px;
+    @extend .extend-sede;
 }
 
 .fondo__planes{
     background-color: $color-secundario;
 }
 .foto__sede{
-    width: 320px;
-    height: 320px;
-    margin: 60px;
+    @extend .extend-sede;
 }
 .mapa__sede{
     width: 90vw;
@@ -235,45 +229,33 @@ main {
 .foto1{
     
     background-color: $color-secundario;
-    width: 400px;
-    height: 400px;
-    margin: 20px;
+    @extend .extend-foto;
 }
 
 .foto2{
     background-color: $color-secundario;
-    width: 400px;
-    height: 400px;
-    margin: 20px;
+    @extend .extend-foto;
 }
 
 .foto3{
     background-color: $color-secundario
     ;
-    width: 400px;
-    height: 400px;
-    margin: 20px;
+    @extend .extend-foto;
 }
 
 .foto4{
     background-color: $color-secundario;
-    width: 400px;
-    height: 400px;
-    margin: 20px;
+    @extend .extend-foto;
 }
 
 .foto5{
     background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 400px;
-    margin: 20px;
+    @extend .extend-foto;
 }
 
 .foto6{
     background-color: $color-secundario;
-    width: 400px;
-    height: 400px;
-    margin: 20px;
+    @extend .extend-foto;
 }
 
 .wpp__img {
@@ -297,13 +279,9 @@ main {
     column-gap: 15px;
 }
 .portada{
+    @extend .background-centrado;
     grid-area: portada;
     background-image: url("../resources/portada.png");
-    background-position: center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    
-    width: 100%;
 }
 .cardio{
     background-image: url("../resources/cardio.png");
@@ -316,66 +294,42 @@ main {
 .yoga{
     grid-area: yoga;
     background-image: url("../resources/yoga.png");
-    background-position: center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    
-    width: 100%;
+    @extend .background-centrado;
 }
 .box{
+    
     grid-area: box;
     background-image: url("../resources/box.png");
-    background-position: center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    
-    width: 100%;
+    @extend .background-centrado;
 }
 
 .spinning{
     grid-area: spinning;
     background-image: url("../resources/spinning.png");
-    background-position: center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    
-    width: 100%;
+    @extend .background-centrado;
 }
 .cross{
     grid-area: cross;
     background-image: url("../resources/cross.png");
-    background-position: center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    
-    width: 100%;
+    @extend .background-centrado;
 }
 
 .plan__1 {
-width: 300px;
-margin: 70px;
-height:700px;
+    @extend .extend-planes;
+
 }
 
 .plan__2 {
-width: 300px;
-margin: 70px;
-height:700px;
+    @extend .extend-planes;
 }
 .plan__3 {
-width: 300px;
-margin: 70px;
-height:700px;
+    @extend .extend-planes;
 }
 
 .plan__4 {
-width: 300px;
-margin: 150px;
-height:700px;
+    @extend .extend-planes;
 } 
 
 .plan__5 {
-    width: 300px;
-    margin: 150px;
-    height:700px;
+    @extend .extend-planes;
 }

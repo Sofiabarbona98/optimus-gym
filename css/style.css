@@ -1,104 +1,25 @@
 /* COLORES */
-footer {
-  display: grid;
-  grid-template-areas: "logo  nuestrassedes  contacto" "redes  sedes  derechos";
-  padding: 30px;
-  width: 100vw; }
+/* EXTEND */
+.background-centrado, .portada, .yoga, .box, .spinning, .cross {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; }
 
-.logo__ig::selection {
-  background-color: #fcb823; }
+.extend-planes, .plan__1, .plan__2, .plan__3, .plan__4, .plan__5 {
+  width: 300px;
+  margin: 70px;
+  height: 700px; }
 
-.logo__fb::selection {
-  background-color: #fcb823; }
+.extend-foto, .foto1, .foto2, .foto3, .foto4, .foto5, .foto6 {
+  width: 400px;
+  height: 400px;
+  margin: 20px; }
 
-.logo__wpp::selection {
-  background-color: #fcb823; }
-
-.logo__fotter::selection {
-  background-color: #fcb823; }
-
-span::selection {
-  background-color: #fcb823; }
-
-h3::selection {
-  background-color: #fcb823; }
-
-h4::selection {
-  background-color: #fcb823; }
-
-h2::selection {
-  background-color: #fcb823; }
-
-.lista__footer::selection {
-  background-color: #fcb823; }
-
-.footer__logo {
-  grid-area: logo;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center; }
-
-.redes__footer {
-  grid-area: redes;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 15vw; }
-
-.lista__footer {
-  padding-bottom: 15px; }
-
-.nuestrassedes {
-  grid-area: nuestrassedes;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-bottom: 50px;
-  width: 50vw; }
-
-.contacto__div {
-  grid-area: contacto;
-  /* display: flex;
-    align-items: flex-end;
-    justify-content: center; */ }
-
-.footer__derechos {
-  grid-area: derechos;
-  display: flex;
-  align-items: flex-end;
-  justify-content: end;
-  font-size: 13px; }
-
-.footer__pie {
-  background-color: black; }
-
-.contacto__footer {
-  text-align: left;
-  font-size: 15px;
-  color: #938c74; }
-
-.contacto__div {
-  font-size: 15px;
-  color: #938c74;
-  padding-bottom: 50px; }
-
-.nombre__gym {
-  font-size: 15px;
-  text-align: left;
-  color: #938c74; }
-
-.nuestras__sedes {
-  text-align: left;
-  font-size: 15px;
-  color: #938c74; }
-
-.logo__fotter {
-  width: 90px;
-  margin: 15px; }
-
-.ul__footer {
-  list-style: none;
-  color: #938c74; }
+.extend-sede, .foto__sedeprincipal, .foto__sedebanfield, .foto__sede {
+  width: 320px;
+  height: 320px;
+  margin: 60px; }
 
 header {
   position: sticky;
@@ -144,6 +65,12 @@ header {
 
 .active {
   color: #fcb823; }
+
+* {
+  margin: 0px;
+  /* MARGEN EXTERNO */
+  padding: 0px;
+  /* MARGEN INTERNO */ }
 
 h1 {
   text-align: left;
@@ -326,23 +253,8 @@ main {
   width: 100vw;
   justify-content: center; }
 
-.foto__sedeprincipal {
-  width: 320px;
-  height: 320px;
-  margin: 60px; }
-
-.foto__sedebanfield {
-  width: 320px;
-  height: 320px;
-  margin: 60px; }
-
 .fondo__planes {
   background-color: black; }
-
-.foto__sede {
-  width: 320px;
-  height: 320px;
-  margin: 60px; }
 
 .mapa__sede {
   width: 90vw;
@@ -382,40 +294,22 @@ main {
   margin: 20px; }
 
 .foto1 {
-  background-color: black;
-  width: 400px;
-  height: 400px;
-  margin: 20px; }
+  background-color: black; }
 
 .foto2 {
-  background-color: black;
-  width: 400px;
-  height: 400px;
-  margin: 20px; }
+  background-color: black; }
 
 .foto3 {
-  background-color: black;
-  width: 400px;
-  height: 400px;
-  margin: 20px; }
+  background-color: black; }
 
 .foto4 {
-  background-color: black;
-  width: 400px;
-  height: 400px;
-  margin: 20px; }
+  background-color: black; }
 
 .foto5 {
-  background-color: white;
-  width: 400px;
-  height: 400px;
-  margin: 20px; }
+  background-color: white; }
 
 .foto6 {
-  background-color: black;
-  width: 400px;
-  height: 400px;
-  margin: 20px; }
+  background-color: black; }
 
 .wpp__img {
   width: 70px; }
@@ -436,11 +330,7 @@ main {
 
 .portada {
   grid-area: portada;
-  background-image: url("../resources/portada.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-image: url("../resources/portada.png"); }
 
 .cardio {
   background-image: url("../resources/cardio.png");
@@ -452,60 +342,120 @@ main {
 
 .yoga {
   grid-area: yoga;
-  background-image: url("../resources/yoga.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-image: url("../resources/yoga.png"); }
 
 .box {
   grid-area: box;
-  background-image: url("../resources/box.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-image: url("../resources/box.png"); }
 
 .spinning {
   grid-area: spinning;
-  background-image: url("../resources/spinning.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-image: url("../resources/spinning.png"); }
 
 .cross {
   grid-area: cross;
-  background-image: url("../resources/cross.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%; }
+  background-image: url("../resources/cross.png"); }
 
-.plan__1 {
-  width: 300px;
-  margin: 70px;
-  height: 700px; }
+footer {
+  display: grid;
+  grid-template-areas: "logo  nuestrassedes  contacto" "redes  sedes  derechos";
+  padding: 30px;
+  width: 100vw; }
 
-.plan__2 {
-  width: 300px;
-  margin: 70px;
-  height: 700px; }
+.logo__ig::selection {
+  background-color: #fcb823; }
 
-.plan__3 {
-  width: 300px;
-  margin: 70px;
-  height: 700px; }
+.logo__fb::selection {
+  background-color: #fcb823; }
 
-.plan__4 {
-  width: 300px;
-  margin: 150px;
-  height: 700px; }
+.logo__wpp::selection {
+  background-color: #fcb823; }
 
-.plan__5 {
-  width: 300px;
-  margin: 150px;
-  height: 700px; }
+.logo__fotter::selection {
+  background-color: #fcb823; }
+
+span::selection {
+  background-color: #fcb823; }
+
+h3::selection {
+  background-color: #fcb823; }
+
+h4::selection {
+  background-color: #fcb823; }
+
+h2::selection {
+  background-color: #fcb823; }
+
+.lista__footer::selection {
+  background-color: #fcb823; }
+
+.footer__logo {
+  grid-area: logo;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; }
+
+.redes__footer {
+  grid-area: redes;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 15vw; }
+
+.lista__footer {
+  padding-bottom: 15px; }
+
+.nuestrassedes {
+  grid-area: nuestrassedes;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 50px;
+  width: 50vw; }
+
+.contacto__div {
+  grid-area: contacto;
+  /* display: flex;
+    align-items: flex-end;
+    justify-content: center; */ }
+
+.footer__derechos {
+  grid-area: derechos;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  font-size: 13px; }
+
+.footer__pie {
+  background-color: black; }
+
+.contacto__footer {
+  text-align: left;
+  font-size: 15px;
+  color: #938c74; }
+
+.contacto__div {
+  font-size: 15px;
+  color: #938c74;
+  padding-bottom: 50px; }
+
+.nombre__gym {
+  font-size: 15px;
+  text-align: left;
+  color: #938c74; }
+
+.nuestras__sedes {
+  text-align: left;
+  font-size: 15px;
+  color: #938c74; }
+
+.logo__fotter {
+  width: 90px;
+  margin: 15px; }
+
+.ul__footer {
+  list-style: none;
+  color: #938c74; }
 
 /* MEDIA DE CELULAR */
 @media (min-width: 320px) and (max-width: 575px) {
@@ -565,9 +515,3 @@ main {
         grid-template-columns:1fr 1fr 1fr; */
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "portada portada portada" "cardio  yoga box" "cardio spinning cross"; } }
-
-* {
-  margin: 0px;
-  /* MARGEN EXTERNO */
-  padding: 0px;
-  /* MARGEN INTERNO */ }
