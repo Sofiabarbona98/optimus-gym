@@ -54,6 +54,7 @@
         
     }
     
+
     footer {
         
         grid-template-areas: "logo" 
@@ -89,5 +90,19 @@
         grid-template-areas:"portada portada portada"
                             "cardio  yoga box"
                             "cardio spinning cross";
+}
+
+footer {
+        
+    grid-template-areas: "logo" 
+                        "nuestrassedes" 
+                        "contacto"
+                        "redes"
+                        "sedes"
+                        "derechos";
+                        
+margin: 5px;
+padding: 5px;
+width: 100vw;
 }
 }
