@@ -110,7 +110,7 @@
     
 }
 footer {
-        display: grid;
+    grid-template-columns: 1fr;
     grid-template-areas: "logo" 
                         "nuestrassedes" 
                         "contacto"
