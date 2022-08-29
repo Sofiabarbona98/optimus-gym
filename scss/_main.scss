@@ -12,7 +12,7 @@ main {
     height: 100vw; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
     grid-template-areas:"musculacion boxeo cross"
                         "spinning funcional relax";
     justify-content: center; 
@@ -121,7 +121,7 @@ main {
 } 
 .tabla__horarios{
     width: 90vw;
-    margin: 60px;
+    /* margin: 10px; */
     height: 700px;
     
 }

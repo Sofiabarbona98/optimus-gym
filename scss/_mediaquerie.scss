@@ -96,12 +96,16 @@
         }
     .horarios__grid{
         
-        /* height: auto;
-        grid-template-columns:1fr 1fr 1fr; */
-        grid-template-rows: 1fr 1fr 1fr ;
-        grid-template-areas:"portada portada portada"
-                            "cardio  yoga box"
-                            "cardio spinning cross";
+        height: auto;
+        grid-template-columns:1fr; 
+        grid-template-rows: repeat (6, 1fr) ;
+        grid-template-areas:"portada"
+                            "cardio"
+                            "yoga "
+                            "box"
+                            "cardio "
+                            "spinning "
+                            "cross";
 }
 .tabla__horarios{
     width: 90vw;
