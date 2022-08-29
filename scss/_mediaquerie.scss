@@ -53,7 +53,19 @@
         
         
     }
-    
+    .columna__grid{
+        height: 100vw; 
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:"musculacion "
+                            "boxeo "
+                            "cross"
+                            "spinning "
+                            "funcional" 
+                            "relax";
+        background-color: $color-secundario ;        
+        
+    }
 
     footer {
         
@@ -91,9 +103,14 @@
                             "cardio  yoga box"
                             "cardio spinning cross";
 }
-
+.tabla__horarios{
+    width: 90vw;
+    margin: 25px;
+    height: 700px;
+    
+}
 footer {
-        
+        display: grid;
     grid-template-areas: "logo" 
                         "nuestrassedes" 
                         "contacto"
