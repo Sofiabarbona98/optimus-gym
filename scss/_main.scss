@@ -4,8 +4,8 @@ main {
     background-color:$color-secundario;
     /* height: 500vh; */ 
 }
-/* 
- */
+
+
 
 .columna__grid{
     width: 100vw;
@@ -120,9 +120,9 @@ main {
 
 } 
 .tabla__horarios{
-    width: 90vw;
+    width: 80vw;
     /* margin: 10px; */
-    height: 700px;
+    height: 650px;
     
 }
 
@@ -208,8 +208,8 @@ main {
     border-bottom: solid 10px rgb(240, 236, 12); */
     
     background-color: rgb(252, 252, 252);
-    width: 80vw;
-    height: 40vw;
+    width: 70vw;
+    height: 35vw;
     /* margin: 100px; */
     
 }
@@ -288,7 +288,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     grid-area: cardio;
-    height: 100%;
+    height: 100px;
 }
 .yoga{
     grid-area: yoga;

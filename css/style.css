@@ -128,7 +128,8 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "musculacion boxeo cross" "spinning funcional relax";
+  grid-template-areas: "musculacion boxeo cross"
+ "spinning funcional relax";
   justify-content: center;
   background-color: black;
   row-gap: 15px;
@@ -323,7 +324,9 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "portada portada portada" "cardio  yoga box" "cardio spinning cross";
+  grid-template-areas: "portada portada portada"
+ "cardio  yoga box"
+ "cardio spinning cross";
   background-color: black;
   row-gap: 15px;
   column-gap: 15px; }
@@ -358,7 +361,8 @@ main {
 
 footer {
   display: grid;
-  grid-template-areas: "logo  nuestrassedes  contacto" "redes  sedes  derechos";
+  grid-template-areas: "logo  nuestrassedes  contacto"
+ "redes  sedes  derechos";
   padding: 30px;
   width: 100vw; }
 
@@ -493,9 +497,34 @@ h2::selection {
     grid-template-columns: 1fr;
     height: 300vh;
     grid-template-rows: repeat(6, 1fr);
-    grid-template-areas: "portada" "cardio"   "yoga" "box" "spinning"  "cross"; }
+    grid-template-areas: "portada"
+ "cardio"  
+ "yoga"
+ "box"
+ "spinning" 
+ "cross"; }
+ .main__index {
+  height:550vh; }
+  .columna__grid{
+    height: 80%; 
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:"musculacion "
+                        "boxeo "
+                        "cross"
+                        "spinning "
+                        "funcional" 
+                        "relax";
+        
+    
+}
   footer {
-    grid-template-areas: "logo"  "nuestrassedes"  "contacto" "redes" "sedes" "derechos";
+    grid-template-areas: "logo" 
+ "nuestrassedes" 
+ "contacto"
+ "redes"
+ "sedes"
+ "derechos";
     margin: 5px;
     padding: 5px;
     width: 100vw; } }
@@ -514,4 +543,38 @@ h2::selection {
     /* height: auto;
         grid-template-columns:1fr 1fr 1fr; */
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "portada portada portada" "cardio  yoga box" "cardio spinning cross"; } }
+    grid-template-areas: "portada portada portada"
+ "cardio  yoga box"
+ "cardio spinning cross"; } 
+ .main__index {
+  height: 600vh; }
+ .columna__grid{
+  height: 80%; 
+  grid-template-columns: 1fr;
+  grid-template-rows:  repeat(6, 1fr);
+  grid-template-areas:"musculacion "
+                      "boxeo "
+                      "cross"
+                      "spinning "
+                      "funcional" 
+                      "relax";
+
+  
+}
+
+  .tabla__horarios {
+    width: 90vw;
+    /* margin: 60px; */
+    height: 700px; }
+    footer {
+      grid-template-areas: "logo" 
+   "nuestrassedes" 
+   "contacto"
+   "redes"
+   "sedes"
+   "derechos";
+      margin: 5px;
+      padding: 5px;
+      width: 100vw; }
+    
+}

@@ -66,6 +66,8 @@
         background-color: $color-secundario ;        
         
     }
+    .main__index {
+        height: 100vh; }
 
     footer {
         
@@ -85,6 +87,11 @@
 
 /* MEDIA QUERIE DE TABLET */
 @media  (min-width: 576px) and (max-width: 992px) {
+    header{
+        
+        height: auto;
+    }
+
     h1 {
         text-align:left;
         padding: 20px;
@@ -96,25 +103,58 @@
         }
     .horarios__grid{
         
-        height: auto;
-        grid-template-columns:1fr; 
-        grid-template-rows: repeat (6, 1fr) ;
-        grid-template-areas:"portada"
-                            "cardio"
-                            "yoga "
-                            "box"
-                            "cardio "
-                            "spinning "
-                            "cross";
+        /* height: auto; */
+        grid-template-columns:1fr 1fr; 
+        grid-template-rows: repeat (3, 1fr) ;
+        grid-template-areas:"portada cardio"
+                            "yoga box "
+                            "spinnin cross";
 }
 .tabla__horarios{
     width: 90vw;
-    margin: 25px;
+    margin: 30px;
     height: 700px;
     
 }
-footer {
+.header__lista{
+    flex-direction: column;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+}
+.header__nav{
+    flex-direction: column;
+    justify-content: center;
+}
+.horarios__grid{
+    
     grid-template-columns: 1fr;
+    height: 300vh;
+    grid-template-rows: repeat(6, 1fr) ;
+    grid-template-areas:"portada"
+                        "cardio"  
+                        "yoga"
+                        "box"
+                        "spinning" 
+                        "cross";
+    
+    
+}
+.columna__grid{
+    height: 50%; 
+    grid-template-columns: 1fr;
+    grid: template rows repeat(6, 1fr);
+    grid-template-areas:"musculacion "
+                        "boxeo "
+                        "cross"
+                        "spinning "
+                        "funcional" 
+                        "relax";
+  
+    
+  }
+footer {
+    
     grid-template-areas: "logo" 
                         "nuestrassedes" 
                         "contacto"
@@ -122,8 +162,9 @@ footer {
                         "sedes"
                         "derechos";
                         
-margin: 5px;
-padding: 5px;
+margin: 10px;
+padding: 10px;
 width: 100vw;
 }
+
 }
